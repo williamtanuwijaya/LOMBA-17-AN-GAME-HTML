@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Tic Tac Toe (Teka Teki Silang) Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ini adalah permainan Tic Tac Toe atau yang sering disebut Teka Teki Silang.
 
-## Available Scripts
+## Persyaratan
 
-In the project directory, you can run:
+Sebelum memainkan permainan ini, pastikan Anda telah menginstal Node.js di komputer Anda.
 
-### `npm start`
+## Instalasi
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Untuk memulai, salin repositori ini menggunakan perintah berikut:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/williamtanuwijaya/LOMBA-17-AN-GAME-HTML.git
 
-### `npm test`
+```bash
+cd LOMBA-17-AN-GAME-HTML
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Jalankan permainan dengan menggunakan npm:
+```bash
+npm start
 
-### `npm run build`
+## Cara Bermain
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Permainan Tic Tac Toe dimainkan oleh dua pemain, biasanya Pemain X dan Pemain O, pada papan berukuran 3x3.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pemain X biasanya bermain duluan. Untuk menempatkan simbol di papan, cukup ketikkan nomor kotak di mana Anda ingin menempatkan simbol X atau O.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pemain yang berhasil menyusun tiga simbol X atau O secara horizontal, vertikal, atau diagonal menjadi pemenangnya.
 
-### `npm run eject`
+Permainan akan berakhir jika papan telah penuh atau salah satu pemain berhasil menyusun tiga simbol berturut-turut.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Jika tidak ada pemain yang berhasil menyusun tiga simbol berturut-turut dan papan telah penuh, maka permainan akan berakhir dengan hasil seri.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contoh Menang
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Misalnya, jika ada papan berikut:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ X |   | O
+-----------
+   | X | O
+-----------
+   |   | X
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pemain X telah menyusun tiga simbol X secara diagonal dari kiri atas ke kanan bawah, sehingga Pemain X menjadi pemenangnya.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Selamat bermain!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Semoga Anda menikmati permainan Tic Tac Toe ini. Selamat bermain dan semoga berhasil menjadi pemenangnya! Jika Anda menemui masalah atau ingin berkontribusi, silakan buka masalah di repositori atau ajukan permintaan tarik.
