@@ -8,17 +8,21 @@ Sebelum memainkan permainan ini, pastikan Anda telah menginstal Node.js di kompu
 
 ## Instalasi
 
-Untuk memulai, salin repositori ini menggunakan perintah berikut:
+- **Clone repositori**: Gunakan perintah `git clone`
 
 ```bash
 git clone https://github.com/williamtanuwijaya/LOMBA-17-AN-GAME-HTML.git
+```
 
+- **Masuk ke direktori**: Pindah ke direktori gunakan `cd LOMBA-17-AN-GAME-HTML`
 ```bash
 cd LOMBA-17-AN-GAME-HTML
+```
 
-Jalankan permainan dengan menggunakan npm:
+- **Jalankan permainan** dengan menggunakan npm:
 ```bash
 npm start
+```
 
 ## Cara Bermain
 
