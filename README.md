@@ -1,6 +1,6 @@
-# Tic Tac Toe (Teka Teki Silang) Game
+# Tic Tac Toe Game
 
-Ini adalah permainan Tic Tac Toe atau yang sering disebut Teka Teki Silang.
+Ini adalah permainan Tic Tac Toe.
 
 ## Persyaratan
 
