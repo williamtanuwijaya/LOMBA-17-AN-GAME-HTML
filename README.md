@@ -39,12 +39,13 @@ Jika tidak ada pemain yang berhasil menyusun tiga simbol berturut-turut dan papa
 ### Contoh Menang
 
 Misalnya, jika ada papan berikut:
-
+```markdown
  X |   | O
 -----------
    | X | O
 -----------
    |   | X
+```
 
 
 Pemain X telah menyusun tiga simbol X secara diagonal dari kiri atas ke kanan bawah, sehingga Pemain X menjadi pemenangnya.
